@@ -2,15 +2,16 @@
 <html>
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
-  <title>ReactJS技术分享 | rplees</title>
+  <title>ReactJS技术分享 | rplees person blog</title>
   <meta name="keywords" content=" 技术 , react-native ">
-  <meta name="description" content="ReactJS技术分享 | rplees">
+  <meta name="description" content="ReactJS技术分享 | rplees person blog">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="http://rplees.com/">
+<meta name="keywords" content="blog, java, 分享">
 <meta property="og:type" content="website">
 <meta property="og:title" content="关于">
 <meta property="og:url" content="http://rplees.com/about/index.html">
-<meta property="og:site_name" content="rplees">
+<meta property="og:site_name" content="rplees person blog">
 <meta property="og:description" content="http://rplees.com/">
 <meta property="og:locale" content="default">
 <meta property="og:updated_time" content="2019-07-15T17:11:43.000Z">
@@ -218,7 +219,7 @@
     </li>
     
     <li class="article-tag-list-item">
-        <a href="javascript:" class="color5">HTML</a>
+        <a href="javascript:" class="color3">JS</a>
     </li>
     
     <li class="article-tag-list-item">
@@ -226,7 +227,7 @@
     </li>
     
     <li class="article-tag-list-item">
-        <a href="javascript:" class="color3">JS</a>
+        <a href="javascript:" class="color5">HTML</a>
     </li>
     
     <li class="article-tag-list-item">
@@ -276,18 +277,18 @@
     <nav id="title-list-nav">
         
         <a  class=""
-           href="/2018/04/19/HTML面试题/"
-           data-tag="面试,HTML,技术"
+           href="/2018/04/19/JS面试题/"
+           data-tag="面试,JS,技术"
            data-author="" >
-            <span class="post-title" title="前端开发面试题">前端开发面试题</span>
+            <span class="post-title" title="JS面试题">JS面试题</span>
             <span class="post-date" title="2018-04-19 00:00:00">2018/04/19</span>
         </a>
         
         <a  class=""
-           href="/2018/04/19/JS面试题/"
-           data-tag="面试,技术,JS"
+           href="/2018/04/19/HTML面试题/"
+           data-tag="面试,技术,HTML"
            data-author="" >
-            <span class="post-title" title="JS面试题">JS面试题</span>
+            <span class="post-title" title="前端开发面试题">前端开发面试题</span>
             <span class="post-date" title="2018-04-19 00:00:00">2018/04/19</span>
         </a>
         
@@ -421,6 +422,17 @@
             </span>
         </span>
         
+        
+        <span class="top-comment" title="跳转至评论区">
+            <a href="#comments">
+                评论:<span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </a>
+        </span>
         
     </div>
     
@@ -672,6 +684,27 @@
 
 
 
+    <div id="comments"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+<script type="text/javascript">
+    $.getScript('/js/gitalk.js', function () {
+        var gitalk = new Gitalk({
+            clientID: 'c68cc337f11e5bd4ddcf',
+            clientSecret: '5e299ce16acbd63f8acb8a72a7d5d1481698c6c1',
+            repo: 'rplees.github.io',
+            owner: 'rplees',
+            admin: ['rplees'],
+            id: location.pathname,
+            distractionFreeMode: 'true',
+            language: 'zh-CN',
+            perPage: parseInt('10',10)
+        })
+        gitalk.render('comments')
+    })
+</script>
+
+
 
 
     
@@ -739,7 +772,7 @@
     /*作者、标签的自动补全*/
     $(function () {
         $('.search').AutoComplete({
-            'data': ['#面试','#HTML','#技术','#JS','#JAVA','#linux','#ngrok','#搭建','#react-native','#ss','#sublimetext','#react','#后台','#架构',],
+            'data': ['#面试','#JS','#技术','#HTML','#JAVA','#linux','#ngrok','#搭建','#react-native','#ss','#sublimetext','#react','#后台','#架构',],
             'itemHeight': 20,
             'width': 418
         }).AutoComplete('show');
