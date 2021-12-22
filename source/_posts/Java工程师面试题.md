@@ -1,12 +1,13 @@
 ---
 title: Java工程师面试题
 date: 2016-02-25 17:20:58
+tags: [面试,JAVA,技术]
 ---
 
 #Java工程师面试题
 
 ### 1、下面哪些是Thread类的方法（  ）
-- A、start() 
+- A、start()
 - B、 run()   
 - C、exit()  
 - D、 getPriority()
@@ -18,7 +19,7 @@ date: 2016-02-25 17:20:58
 - D．一个class只能定义一个constructor
 
 ### 3、下面程序的运行结果：（  ）
-```bash 
+```bash
 public static void main(String args[]) {
         Thread t = new Thread() {
             public void run() {
@@ -103,9 +104,9 @@ class HelloA {
     public HelloA() {
         System.out.println("HelloA");
     }
-    
+
     { System.out.println("I'm A class"); }
-    
+
     static { System.out.println("static A"); }
 
 }
@@ -114,13 +115,13 @@ public class HelloB extends HelloA {
     public HelloB() {
         System.out.println("HelloB");
     }
-    
+
     { System.out.println("I'm B class"); }
-    
+
     static { System.out.println("static B"); }
-    
-    public static void main(String[] args) { 
-　　　　 new HelloB(); 
+
+    public static void main(String[] args) {
+　　　　 new HelloB();
 　　 }
 
 }
@@ -175,7 +176,7 @@ public class Example {
 - A、 NullPointerException        
 - B、 ClassCastException      
 - C、 FileNotFoundException       
-- D、 IndexOutOfBoundsException 
+- D、 IndexOutOfBoundsException
 
 ### 19、下面的方法，当输入为2的时候返回值是多少?（  ）
 ```java
@@ -212,15 +213,3 @@ public abstract class MyClass {
 ### 21、两个对象值相同(x.equals(y)==true),但却可有不同的hash code,这句话对不对？为什么？
 
 ### 22、"组合优于继承"，是否同意这句话，并阐述你的观点。
-
-
-
-
-
-
-
-
-
-
-
-

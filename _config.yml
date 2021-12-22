@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: rplees
+title: rplees person blog
 subtitle: rplees's persion blog
-description:
-keywords:
+description: 天行健, 君子以自强不息.
+keywords: blog, java, 分享
 author: rplees
 language:
 timezone:
@@ -81,4 +81,4 @@ deploy:
   type: git
   repo:
     github: git@github.com:rplees/rplees.github.io.git,master
-  message: 新的博客更新时间 {{ now("YYYY-MM-DD HH:mm") }}
+  message: update {{ now("YYYY-MM-DD HH:mm") }}

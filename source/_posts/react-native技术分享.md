@@ -1,6 +1,7 @@
 ---
 title: ReactNative技术分享
 date: 2016-10-28 09:20:58
+tags: [react-native,技术]
 ---
 
 # React-Native介绍

@@ -1,6 +1,7 @@
 ---
 title: Ngrok服务端搭建与linux\mac\window客户端的编译
 date: 2016-03-22 20:20:58
+tags: [linux,ngrok,搭建]
 ---
 
 ## ngrok 服务编译的前提

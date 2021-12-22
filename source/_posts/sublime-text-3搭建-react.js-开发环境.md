@@ -1,6 +1,7 @@
 ---
 title: SublimeText 3 搭建 React.js 开发环境
 date: 2016-02-17 11:20:58
+tags: [sublimetext,react,搭建]
 ---
 ## [转载来源](http://www.cnblogs.com/terrylin/p/4942332.html)
 ## Sublime Text 3 搭建 React.js 开发环境

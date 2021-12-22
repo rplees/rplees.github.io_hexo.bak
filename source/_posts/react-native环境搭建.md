@@ -1,6 +1,7 @@
 ---
 title: ReactNative环境搭建
 date: 2016-01-14 11:20:58
+tags: [react-native,技术,搭建]
 ---
 ## React Native环境搭建
 
@@ -36,8 +37,8 @@ nmp 是 node的一个三方管理工具，相当于 Ruby中的RubyGems，iOS中�
 ###### 安装方法:
 ---
   - 官方下载安装
-  - 通过brew安装 
-  ```bash 
+  - 通过brew安装
+  ```bash
   brew install node
   ```
 
@@ -50,7 +51,7 @@ brew install watchman
 
 ##### 接下来安装react-native-cli(如果权限不足需要sudo)
 ```bash
-npm install -g react-native-cli 
+npm install -g react-native-cli
 ```
 
 ##### 创建第一个项目并运行
@@ -94,7 +95,7 @@ dyld: Library not loaded: /usr/local/lib/libpcre.1.dylib
 ```
 ##### 经过一番搜索，发现是pcre找不到，通过如下命令即可修复：
 ```bash
-brew uninstall pcre && brew install pcre 
+brew uninstall pcre && brew install pcre
 ```
 
 ###### 运行npm start的时候抛错
@@ -103,6 +104,3 @@ TypeError: Cannot read property 'root' of null
 这个问题困扰很久，后来才发现是watchman版本的问题
 brew update && brew upgrade watchman 就解决了
 ```
-
-
-

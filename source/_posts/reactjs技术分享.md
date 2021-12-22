@@ -1,6 +1,7 @@
 ---
 title: ReactJS技术分享
 date: 2016-10-17 09:20:58
+tags: [react-native,技术]
 ---
 
 # React的定义与原理

@@ -1,6 +1,10 @@
 ---
 title: 前端开发面试题
 date: 2018-04-19
+tags: [面试,HTML,技术]
+#categories:
+#  - 工具
+#  - hexo
 ---
 
 # 前端开发面试题
